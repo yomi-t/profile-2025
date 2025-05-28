@@ -3,17 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { M_PLUS_Rounded_1c } from "next/font/google";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-
 const mPlusRounded1c = M_PLUS_Rounded_1c({
   weight: "400",
   subsets: ["latin"],
